@@ -1,0 +1,49 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: chocolate;
+    text-align: center;
+}
+
+h3 {
+    color: coral;
+    text-align: center;
+}
+
+html {
+    background-image: url(https://img4.goodfon.com/original/1920x1080/1/3e/greenpeace-grinpis-emblema-ekologiia.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+p{
+    color:midnightblue;
+    font-size: 22px;
+}
+
+ul {
+    color: midnightblue;
+    font-size: 22px;
+}
+
+ol {
+    color: midnightblue;
+    font-size: 22px;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.linkes {
+    font-size: 30px;
+    text-align: center;
+}
