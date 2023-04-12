@@ -7,17 +7,17 @@ CREATE TABLE classmates (
 );
 
 -- insert
-INSERT INTO classmates VALUES (0001, 'Âàñèëèé', 16, 'Òâåðü');
-INSERT INTO classmates VALUES (0002, 'Ìàðèÿ', 25, 'Ìîñêâà');
-INSERT INTO classmates VALUES (0003, 'Ïåòð', 18, 'Ìîñêâà');
-INSERT INTO classmates VALUES (0004, 'Ñîôèÿ', 18, 'Âëàäèìèð');
-INSERT INTO classmates VALUES (0005, 'Èëüÿ', 31, 'Êàçàíü');
-INSERT INTO classmates VALUES (0006, 'Íàäåæäà', 30, 'Ìîñêâà');
-INSERT INTO classmates VALUES (0007, 'Èâàí', 29, 'Ìîñêâà');
-INSERT INTO classmates VALUES (0008, 'Íàòàëèÿ', 43, 'Õàáàðîâñê');
-INSERT INTO classmates VALUES (0009, 'Àëåêñåé', 28, 'Îìñê');
-INSERT INTO classmates VALUES (0010, 'Àíàòîëèé', 21, 'Ìîñêâà');
-INSERT INTO classmates VALUES (0011, 'Âèêòîðèÿ', 32, 'Ìîñêâà');
+INSERT INTO classmates VALUES (0001, 'Ð’Ð°ÑÐ¸Ð»Ð¸Ð¹', 16, 'Ð¢Ð²ÐµÑ€ÑŒ');
+INSERT INTO classmates VALUES (0002, 'ÐœÐ°Ñ€Ð¸Ñ', 25, 'ÐœÐ¾ÑÐºÐ²Ð°');
+INSERT INTO classmates VALUES (0003, 'ÐŸÐµÑ‚Ñ€', 18, 'ÐœÐ¾ÑÐºÐ²Ð°');
+INSERT INTO classmates VALUES (0004, 'Ð¡Ð¾Ñ„Ð¸Ñ', 18, 'Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€');
+INSERT INTO classmates VALUES (0005, 'Ð˜Ð»ÑŒÑ', 31, 'ÐšÐ°Ð·Ð°Ð½ÑŒ');
+INSERT INTO classmates VALUES (0006, 'ÐÐ°Ð´ÐµÐ¶Ð´Ð°', 30, 'ÐœÐ¾ÑÐºÐ²Ð°');
+INSERT INTO classmates VALUES (0007, 'Ð˜Ð²Ð°Ð½', 29, 'ÐœÐ¾ÑÐºÐ²Ð°');
+INSERT INTO classmates VALUES (0008, 'ÐÐ°Ñ‚Ð°Ð»Ð¸Ñ', 43, 'Ð¥Ð°Ð±Ð°Ñ€Ð¾Ð²ÑÐº');
+INSERT INTO classmates VALUES (0009, 'ÐÐ»ÐµÐºÑÐµÐ¹', 28, 'ÐžÐ¼ÑÐº');
+INSERT INTO classmates VALUES (0010, 'ÐÐ½Ð°Ñ‚Ð¾Ð»Ð¸Ð¹', 21, 'ÐœÐ¾ÑÐºÐ²Ð°');
+INSERT INTO classmates VALUES (0011, 'Ð’Ð¸ÐºÑ‚Ð¾Ñ€Ð¸Ñ', 32, 'ÐœÐ¾ÑÐºÐ²Ð°');
 
 -- fetch 
-SELECT name FROM classmates WHERE address = 'Ìîñêâà' AND age >= 18 AND age < 45;
+SELECT name FROM classmates WHERE address = 'ÐœÐ¾ÑÐºÐ²Ð°' AND age >= 18 AND age < 45;
